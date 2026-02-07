@@ -22,14 +22,33 @@ Our system uses a multi-layered approach to ensure high-fidelity fault detection
 * **Prescriptive Alerts:** Automatically drafts repair orders with required parts and safety protocols.
 * **Tech Stack:** Python 3.9+, Scikit-Learn (AI), Arduino/ESP32 (Hardware), NumPy (Signals).
 
+---
+
+## 📊 Live System Demo
+Below is the real-time output from the EdgeVigil AI Brain during a simulated bearing failure, showing the **Green Integrity** carbon tracking in action:
+
+![EdgeVigil Output Demo](Output_Demo.png)
+
+---
+
 ## ⚡ Functional Testing & Proof of Life
 To verify the system's accuracy, run the simulation logic:
 
 ### **Test Scenario: Bearing Failure Detection**
 * **Expected Result:** System detects high-frequency "Haystack" noise and sudden thermal rise.
-* **Observation:** Terminal outputs: `>>> 🚨 CRITICAL ANOMALY DETECTED! Score: -0.72` along with the **Green Integrity** CO₂ savings report.
+* **Observation:** Terminal outputs: `>>> 🚨 CRITICAL ANOMALY DETECTED!` along with the **Green Integrity** CO₂ savings report.
 
 ## 🛠️ How to Run Locally
-1. **Install Requirements:** `pip install -r requirements.txt`
-2. **Launch Edge Agent:** `python edge_vigil_core.py`
-3. **View Impact:** Watch the console for real-time prescriptive alerts.
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/mariannoah16-svg/EdgeVigil_AI.git](https://github.com/mariannoah16-svg/EdgeVigil_AI.git)
+
+# 2. Navigate to the project folder
+cd EdgeVigil_AI
+
+# 3. Install the required AI libraries
+pip install -r requirements.txt
+
+# 4. Run the Edge Intelligence Brain
+python edge_vigil_core.py
