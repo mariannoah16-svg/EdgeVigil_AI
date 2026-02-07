@@ -3,7 +3,7 @@
 **National Level Hackathon Entry - GRASP 2026**
 
 <p align="center">
-  <img src="EdgeVigil_AI_Architecture.jpg.png" width="800">
+  <img src="EdgeVigil_AI_Architecture.png" width="800">
   <br>
   <em>Figure 1: Data flow from Arduino Sentry Nodes to Python Edge Agents.</em>
 </p>
