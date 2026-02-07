@@ -29,6 +29,7 @@ Below is the real-time output from the EdgeVigil AI Brain during a simulated bea
 
 ![EdgeVigil Output Demo](Output_Demo.png)
 
+
 ---
 
 ## ⚡ Functional Testing & Proof of Life
