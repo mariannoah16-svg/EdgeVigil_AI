@@ -2,9 +2,11 @@
 ### **Bridging the Gap Between Legacy Industrial Assets & Edge Intelligence**
 **National Level Hackathon Entry - GRASP 2026**
 
-<img src="EdgeVigil_AI_Architecture.jpg.png" width="800">
-<br>
-*Figure 1: Data flow from Arduino Sentry Nodes to Python Edge Agents and Autonomous Repair Orchestration.*
+<p align="center">
+  <img src="EdgeVigil_AI_Architecture.png" width="800">
+  <br>
+  <em>Figure 1: Data flow from Arduino Sentry Nodes to Python Edge Agents.</em>
+</p>
 
 ---
 
@@ -28,7 +30,9 @@ Our system uses a multi-layered approach to ensure high-fidelity fault detection
 ## 📊 Live System Demo
 Below is the real-time output from the EdgeVigil AI Brain during a simulated bearing failure, showing the **Green Integrity** carbon tracking in action:
 
-<img src="Output_Demo.png" width="600">
+<p align="center">
+  <img src="Output_Demo.png" width="600">
+</p>
 
 ---
 
